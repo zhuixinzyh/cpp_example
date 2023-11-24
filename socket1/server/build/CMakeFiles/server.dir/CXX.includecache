@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zyh/work/cpro/socket1/server/server.cpp
+iostream
+-
+cstring
+-
+unistd.h
+-
+arpa/inet.h
+-
+sys/socket.h
+-
+sys/epoll.h
+-
+
